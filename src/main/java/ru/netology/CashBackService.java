@@ -5,5 +5,6 @@ public class CashBackService {
 
     public int remain(int amount) {
         return boundary - amount % boundary;
+
     }
 }
